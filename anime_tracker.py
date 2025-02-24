@@ -36,7 +36,7 @@ def delete_anime():
                 file.write(line)
     print("Anime deleted successfully")
 def display_anime_list():
-    with open("anime_list.txt", "r") as file:
+    with open("anime_list.txt", "w") as file:
         print(file.read())
 def exit():
     print("Exiting Anime Tracker")
